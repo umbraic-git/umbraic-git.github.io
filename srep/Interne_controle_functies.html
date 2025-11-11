@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <link rel="icon" href="../afm-logo.png" type="image/png">
+    <title>AFM - Interne controle functies</title>
+    <link href="https://formulieren.afm.nl/bundle.dc8fd06561cc392ee301.css" rel="stylesheet">
+</head>
+
+<body class="afm">
+    <div id="portaal">
+        <div id="page">
+            <header class="HeaderComponent">
+                <div class="container-fluid">
+                    <nav class="TopMenuComponent container-fluid navbar navbar-expand-lg navbar-light px-0"
+                        role="navigation">
+                        <div>
+                            <div class="navbar-brand"></div>
+                        </div>
+                        <div class="DocumentInfoRowComponent">
+                            <h1 class="DocumentInfoRowComponent__title" style="padding-top: 25px;">AFM SREP 2025 (najaar 2025)</h1>
+                        </div>
+                        <div class="LanguageSelectionComponent"><span class="trigger">
+                                <div id="selected-language" class="nav-item language"><span class="trigger"><img
+                                            alt="Nederlands" class="language-flag"
+                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5IDYiPgo8cmVjdCBmaWxsPSIjMjE0NjhCIiB3aWR0aD0iOSIgaGVpZ2h0PSI2Ii8+CjxyZWN0IGZpbGw9IiNGRkYiIHdpZHRoPSI5IiBoZWlnaHQ9IjQiLz4KPHJlY3QgZmlsbD0iI0FFMUMyOCIgd2lkdGg9IjkiIGhlaWdodD0iMiIvPgo8L3N2Zz4="
+                                            width="30" height="20"></span></div>
+                            </span></div>
+                        <div id="UserInfoComponent">
+                            <div id="organizationname" title="Bedrijfsnaam">Bedrijfsnaam BV</div>
+                            <div><span id="userid">UID1234</span></div>
+                        </div>
+                        <form action="https://formulieren.afm.nl/husky-server/logout"
+                            class="LogoutComponent form-inline" id="logout-form" method="post"><button
+                                class="btn btn-outline btn-outline-dark" id="logout-button"
+                                type="submit">Afmelden</button></form>
+                    </nav>
+                </div>
+            </header>
+            <div class="content" id="content-panel">
+                <div id="husky" class="husky--data-entry container-fluid">
+                    <div class="FormContent row">
+                        <div id="navigation-sidebar" class="col">
+                            <div id="menu-navigation-component">
+                                <div class="nav-tree">
+                                    <ul class="navigation-menu" style="display: block;">
+                                        <li class="navigation-abstract" style="border: none;">Supervisory Review and
+                                            Evaluation Process (SREP) - AFM uitvraag najaar 2025<a class="toggle-nav"
+                                                style="display: block; text-decoration: none; color: inherit; font-size: 1.2em;"></a>
+                                            <ul class="navigation-menu" style="display: block;">
+                                                <li class="page-abstract "
+                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}RelationNumberAFMPageTitle"
+                                                    style="cursor: pointer;"><a>AFM relatienummer</a></li>
+                                                <li class="navigation-abstract" style="border: none;">Supervisory Review
+                                                    and Evaluation Process (SREP)<a class="toggle-nav"
+                                                        style="display: block; text-decoration: none; color: inherit; font-size: 1.2em;"></a>
+                                                    <ul class="navigation-menu" style="display: block;">
+                                                        <li class="navigation-abstract" style="border: none;">Algemeen<a
+                                                                class="toggle-nav"
+                                                                style="display: block; text-decoration: none; color: inherit; font-size: 1.2em;"></a>
+                                                            <ul class="navigation-menu" style="display: block;">
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}ContactPersonPageTitle"
+                                                                    style="cursor: pointer;"><a href="Contactpersoon.html">Contactpersoon</a></li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}InvestmentServicesPageTitle"
+                                                                    style="cursor: pointer;"><a href="Beleggingsdiensten_2024.html">Beleggingsdiensten
+                                                                        2024</a></li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}SemiStaticDataPage2Title"
+                                                                    style="cursor: pointer;"><a href="Semi-static_data.html">Semi-static data</a>
+                                                                </li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}SemiStaticNavTitle"
+                                                                    style="cursor: pointer;"><a href="Semi-static.html">Semi-static</a></li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}IncidentsPageTitle"
+                                                                    style="cursor: pointer;"><a href="Incidenten.html">Incidenten</a></li>
+                                                                <li class="page-abstract active"
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}InternalControlFunctionsPageTitle"
+                                                                    style="cursor: pointer;"><a href="Interne_controle_functies.html">Interne controle
+                                                                        functies</a></li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}ImplementationLegislationRegulationsPageTitle"
+                                                                    style="cursor: pointer;"><a href="Implementatie_wet-_en_regelgeving.html">Implementatie wet- en
+                                                                        regelgeving</a></li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}ITRiskManagementPageTitle"
+                                                                    style="cursor: pointer;"><a href="IT-risicobeheersing.html">IT-risicobeheersing</a>
+                                                                </li>
+                                                                <li class="page-abstract "
+                                                                    id="{https://www.afm.nl/taxonomieen/vragenlijsten/afm/20250929/ontology/afm-portal-abstracts}EvaluationPageTitle"
+                                                                    style="cursor: pointer;"><a href="Evaluatie.html">Evaluatie</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="main" class="col">
+                            <div id="main-content" class="tab-content">
+                                <div class="tab-pane active">
+                                    <h2 class="overviewHeader">Interne controle functies</h2>
+                                    <p class="section-text-1"></p>
+
+                                    <h3 class="overviewHeader">Vraag 32</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Is er een formeel vastgesteld compliancebeleid dat periodiek wordt herzien, geactualiseerd en goedgekeurd door de directie of het bestuur?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="291">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een formeel vastgesteld compliance beleid, dat minimaal jaarlijks wordt herzien en formeel wordt geactualiseerd waar nodig.</option>
+                                                                            <option>Er is een formeel vastgesteld compliance beleid, maar herziening en actualisatie vinden niet jaarlijks plaats of gebeuren onregelmatig.</option>
+                                                                            <option>Er is een formeel vastgesteld compliance beleid dat al meerdere jaren niet is herzien en geactualiseerd.</option>
+                                                                            <option>Er is geen formeel vastgesteld compliancebeleid.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 33</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Beschikt de compliancefunctie over voldoende middelen (bv. personeel, kennis, budget en systemen) om haar taken effectief uit te voeren?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="292">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>De compliancefunctie beschikt over voldoende middelen passend bij de grootte, complexiteit en risico's van de onderneming.</option>
+                                                                            <option>Er zijn beperkte middelen beschikbaar, waardoor de compliancefunctie haar taken met moeite kan uitvoeren. Dit resulteert af en toe in onjuistheden of vertraging in de uitvoering van de compliance activiteiten.</option>
+                                                                            <option>De compliancefunctie is onderbezet en/of heeft verouderde middelen, wat de effectiviteit ernstig beperkt.</option>
+                                                                            <option>De compliancefunctie mist op dit moment essentiële middelen om haar rol effectief te vervullen, bijvoorbeeld als gevolg van toegenomen wet-en regelgeving of budgetaire uitdagingen.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 34</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Is de compliancefunctie onafhankelijk van de activiteiten die zij beoordeelt?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="293">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>De compliancefunctie is op bestuurlijk niveau gescheiden. Er is een Chief Compliance Officer en op werkvloer niveau is het compliance personeel niet betrokken bij taken waar zij op toe ziet.</option>
+                                                                            <option>De compliancefunctie is op bestuurlijk niveau niet gescheiden (de bestuurder heeft tevens andere functies in de portefeuille), maar op werkvloer niveau is het compliance personeel waar nodig wel betrokken bij taken waar zij op toe ziet (eerste dan wel tweedelijnstaken).</option>
+                                                                            <option>De compliancefunctie is op bestuurlijk niveau niet gescheiden (de bestuurder heeft tevens andere functies in de portefeuille), maar op werkvloer niveau is het compliance personeel niet betrokken bij taken waar zij op toe ziet (eerste dan wel tweedelijnstaken).</option>
+                                                                            <option>Er is geen onafhankelijke compliancefunctie; compliance taken worden op bestuurlijk en op werkvloer niveau gecombineerd met andere functies.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 35</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Heeft de compliancefunctie directe en onbeperkte toegang tot de directie en het bestuur?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="294">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Compliance heeft rechtstreekse toegang en rapporteert regelmatig aan de directie en/of het bestuur. Dit is bijvoorbeeld aantoonbaar in de notulen van directievergaderingen.</option>
+                                                                            <option>Compliance heeft rechtstreekse toegang tot de directie en/of het bestuur, maar zij sluit beperkt aan bij directievergaderingen.</option>
+                                                                            <option>Compliance heeft indirect toegang tot het bestuur, bijvoorbeeld via de Risk functie. Zij heeft zelf geen directe rapportagelijn naar het bestuur.</option>
+                                                                            <option>Compliance kan via andere afdelingen escaleren indien nodig</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 36</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Vindt er structurele risicobeoordeling en monitoring plaats door de compliancefunctie?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="295">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een formeel compliance risicobeoordelingsproces, jaarlijks geüpdatet en gekoppeld aan een gedetailleerd monitoringplan.</option>
+                                                                            <option>Er is een risicobeoordeling, maar deze wordt onregelmatig geüpdatet en de monitoring is beperkt.</option>
+                                                                            <option>Monitoring is ad-hoc en niet gebaseerd op een gedocumenteerde risicogebaseerde aanpak.</option>
+                                                                            <option>Er is geen systematische risicobeoordeling of monitoring aanwezig.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 37</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Neemt compliance actief deel aan de ontwikkeling en beoordeling van intern beleid en procedures van de operationele functies?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="296">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Compliance is vanaf het begin betrokken bij de ontwikkeling en beoordeling van alle relevante beleidsstukken.</option>
+                                                                            <option>Compliance wordt pas na opstelling geconsulteerd bij beleidsontwikkelingen.</option>
+                                                                            <option>Compliance beoordeelt beleid alleen op verzoek en heeft beperkte invloed.</option>
+                                                                            <option>Compliance is niet betrokken bij beleid of procedureontwikkeling.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 38</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Wordt er structureel compliance-training gegeven aan medewerkers?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="297">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een structureel trainingsprogramma dat jaarlijks wordt herhaald en gevolgd wordt door toetsing.</option>
+                                                                            <option>Trainingen vinden plaats, maar zijn niet jaarlijks.</option>
+                                                                            <option>Alleen bij indiensttreding wordt een eenmalige compliance-training gegeven.</option>
+                                                                            <option>Er is geen gestructureerd compliance-trainingsprogramma.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 39</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Heeft de compliancefunctie de noodzakelijke ervaring/achtergrond om haar rol effectief uit te voeren?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="298">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>De compliancefunctie heeft gemiddeld meer dan 10 jaar relevante werkervaring.</option>
+                                                                            <option>De compliancefunctie heeft gemiddeld meer dan 5 jaar relevante werkervaring.</option>
+                                                                            <option>De compliancefunctie heeft gemiddeld meer 3 jaar relevante werkervaring.</option>
+                                                                            <option>De compliancefunctie heeft gemiddeld ongeveer 1 jaar relevant werkervaring.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 40</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Heeft de compliancefunctie toegang tot voldoende en actuele opleidingen om haar taken effectief en up-to-date uit te voeren?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="299">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een structureel opleidingsprogramma voor compliancepersoneel (inclusief jaarlijkse bijscholing, vaktechnische updates en externe trainingen).</option>
+                                                                            <option>Opleidingen zijn beschikbaar, deze zijn grotendeels afhankelijk van eigen initiatief of individuele aanvragen.</option>
+                                                                            <option>Er worden sporadisch opleidingen gevolgd, zonder vastgelegde planning of inhoudelijke afstemming op veranderende regelgeving.</option>
+                                                                            <option>Er is geen opleidingsbeleid of -budget voor de compliancefunctie.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 41</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Wordt er jaarlijks een formele compliance-rapportage opgesteld en besproken met het bestuur?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="300">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>(Minimaal) jaarlijks wordt een uitgebreid rapport opgesteld met risico's, bevindingen, opvolging en aanbevelingen.</option>
+                                                                            <option>Er wordt een rapport op hoofdlijnen opgesteld, maar met beperkte analyse en opvolging.</option>
+                                                                            <option>Rapportage gebeurt alleen op ad-hoc basis en zonder vaste structuur.</option>
+                                                                            <option>Er wordt geen jaarlijkse compliance-rapportage opgesteld.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 42</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Bestaat er een formeel proces voor het melden, registeren en behandelen van compliance-overtredingen?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="301">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een gedocumenteerd proces waarbij overtredingen worden geregistreerd, geëscaleerd en opgelost.</option>
+                                                                            <option>Overtredingen worden geregistreerd, maar escalatie gebeurt ad-hoc en is niet uniform.</option>
+                                                                            <option>Overtredingen worden afgehandeld door afdelingen zelf, zonder centrale compliance-opvolging.</option>
+                                                                            <option>Er is geen formeel proces voor het melden en behandelen van overtredingen.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 43</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Zijn er compliance monitoringprogramma's aanwezig van de afgelopen twee jaar die met de AFM gedeeld kunnen worden?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="302">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Ja, er is voor ieder jaar een geupdate en goedgekeurd monitoringprogramma beschikbaar.</option>
+                                                                            <option>Gedeeltelijk, maar het monitoringprogramma is niet (altijd) volledig vastgelegd en/of goedgekeurd.</option>
+                                                                            <option>Nee.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 44</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Is de interne auditfunctie formeel ingesteld en onafhankelijk van de activiteiten die zij beoordeelt?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="303">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>De interne auditfunctie is formeel ingesteld, rechtstreeks rapporterend aan het bestuur, en volledig onafhankelijk van te auditen activiteiten.</option>
+                                                                            <option>De interne auditfunctie is formeel ingesteld, maar rapportagelijnen zijn gedeeltelijk afhankelijk van het management.</option>
+                                                                            <option>De interne auditfunctie bestaat, maar valt onder operationele afdelingen, waardoor de onafhankelijkheid beperkt is.</option>
+                                                                            <option>Er is geen formeel ingerichte interne auditfunctie.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 45</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Wordt het interne auditplan opgesteld op basis van een actuele risicobeoordeling en goedgekeurd door het bestuur?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="304">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er wordt jaarlijks een risicogebaseerd auditplan opgesteld, formeel goedgekeurd en bijgesteld waar nodig.</option>
+                                                                            <option>Er is een risicogebaseerd auditplan, maar deze wordt niet goedgekeurd door het bestuur.</option>
+                                                                            <option>Er is een standaard auditplan dat wordt goedgekeurd door het bestuur, maar de risicobeoordeling is beperkt of wordt niet jaarlijks herzien.</option>
+                                                                            <option>Er is geen gestructureerd auditplan.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 46</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Worden audits systematisch uitgevoerd conform het goedgekeurde auditplan?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="305">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Alle audits worden volledig en tijdig uitgevoerd volgens plan, inclusief opvolging van bevindingen.</option>
+                                                                            <option>De meeste audits worden uitgevoerd, maar enkele audits worden doorgeschoven of blijven onvolledig.</option>
+                                                                            <option>Audits worden onregelmatig uitgevoerd; planning en uitvoering lopen structureel uiteen.</option>
+                                                                            <option>Er is geen consistente uitvoering van interne audits.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 47</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Hoe rapporteert de interne auditfunctie haar bevindingen aan de directie en het bestuur?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="306">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Bevindingen worden regelmatig, formeel en direct gerapporteerd aan de auditcommissie of het bestuur.</option>
+                                                                            <option>Bevindingen worden via het senior management doorgegeven, met beperkte directe rapportage.</option>
+                                                                            <option>Alleen bij ernstige incidenten wordt rechtstreeks gerapporteerd aan bestuur/auditcommissie.</option>
+                                                                            <option>Er is geen directe rapportage aan bestuur of auditcommissie.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 48</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Hoe wordt de opvolging van auditbevindingen bewaakt en vastgelegd?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="307">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Er is een gestructureerd proces waarbij bevindingen worden opgevolgd en de voortgang regelmatig wordt gerapporteerd.</option>
+                                                                            <option>Opvolging vindt plaats, maar zonder vastgelegde procedures of systematische rapportage.</option>
+                                                                            <option>Opvolging is ad-hoc en afhankelijk van de betrokken afdelingen.</option>
+                                                                            <option>Er is geen structurele opvolging van auditbevindingen.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 49</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Beschikt de interne auditfunctie over voldoende middelen (bv. personeel, kennis, budget en systemen) om het auditplan uit te voeren?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="308">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>De interne auditfunctie beschikt over voldoende middelen, passend bij de omvang en complexiteit van de onderneming.</option>
+                                                                            <option>Er zijn beperkte middelen beschikbaar, waardoor de audit functie haar taken met moeite kan uitvoeren. Dit resulteert af en toe in vertraging van de uitvoering van de audit activiteiten.</option>
+                                                                            <option>De audit functie is onderbezet of heeft verouderde middelen, wat de effectiviteit ernstig beperkt.</option>
+                                                                            <option>De audit functie mist op dit moment essentiële middelen om haar rol effectief/adequaat te vervullen, bijvoorbeeld als gevolg van toegenomen wet-en regelgeving of budgetaire uitdagingen</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="overviewHeader">Vraag 50</h3>
+                                    <div class="TableContainer ">
+                                        <table class="table TableComponent-table">
+                                            <tbody>
+                                                <tr class="un-clicked-row">
+                                                    <th class="padding adjust-width"></th>
+                                                    <th class="FixedHeaderCellComponent x-no-rollup x-header  padding fixed-width">
+                                                    </th>
+                                                </tr>
+                                                <tr class="un-clicked-row">
+                                                    <th class="FixedHeaderCellComponent y-no-rollup y-header   fixed-width">
+                                                        Zijn er interne audit programma's aanwezig van de afgelopen twee jaar die met de AFM gedeeld kunnen worden?
+                                                    </th>
+                                                    <td class="cell-td" data-fact-id="309">
+                                                        <div class="highlight-wrapper">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group choice-component   ">
+                                                                        <select class="form-control " data-templaterowgroupid="">
+                                                                            <option value="">-- Maak een keuze --</option>
+                                                                            <option>Ja, er is voor ieder jaar een geupdate en goedgekeurd programma beschikbaar.</option>
+                                                                            <option>Gedeeltelijk, maar het programma is niet volledig vastgelegd en/of goedgekeurd.</option>
+                                                                            <option>Nee.</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot class="TableComponent-table__overlay"></tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer></footer>
+        </div>
+    </div><textarea tabindex="-1" aria-hidden="true"
+        style="min-height: 0px !important; max-height: none !important; height: 0px !important; visibility: hidden !important; overflow: hidden !important; position: absolute !important; z-index: -1000 !important; top: 0px !important; right: 0px !important; display: block !important; border-width: 0.666667px; box-sizing: border-box; font-family: MuseoSans-300, Arial, Verdana, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; line-height: 21px; padding: 5.25px 1px 5.25px 10.5px; tab-size: 8; text-indent: 0px; text-rendering: auto; text-transform: none; width: 1519.65px; word-break: normal; word-spacing: 0px; scrollbar-gutter: auto;"></textarea>
+</body>
+
+</html>
+
